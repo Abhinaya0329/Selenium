@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class Lambo_CarTest {
 	public  WebDriver driver;
 	@Parameters("browserName")
-@Test(groups = "Smoke")
+@Test(groups = "System")
 	public  void isTest(String browserName) {
 	if(browserName.equals("chrome")) {
 		 driver = new ChromeDriver();
